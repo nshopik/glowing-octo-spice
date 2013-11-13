@@ -6,4 +6,4 @@ xml = parse('dump.xml')
 name = xml.getElementsByTagName('ip')
 
 for node in name:
-print node.childNodes[0].nodeValue
+  print node.childNodes[0].nodeValue
